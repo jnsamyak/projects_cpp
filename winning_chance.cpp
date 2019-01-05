@@ -1,5 +1,5 @@
 #include<iostream>
-#include"create_board.cpp"
+char col[10]={'0','1','2','3','4','5','6','7','8','9'};
 using namespace std;
 int win()
 {	/* game status 
@@ -8,7 +8,7 @@ int win()
 		return 1 :for game is in progress
 	*/
 	//1,2,3 - 1,5,9 - 1,,4,7 - 2,5,8 - 3,6,9 -3,5,7 -4,5,6 -7,8,9 chances to win 
-	if (col[1] == col[2] && col[2] == col[3])
+	if    (  col[1] == col[2] && col[2] == col[3])
 		return 100;
 	else if (col[1] ==  col[5] &&col[5] == col[9])
 		return 100;
@@ -31,11 +31,4 @@ int win()
 	else
 		return 1;
 }
-/*
-int main()
-{ board();
- 
-int x= win();
-return 1;
-}
-*/
+
