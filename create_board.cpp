@@ -5,8 +5,8 @@ void board()
 {	
 //	clrscr();
 	cout<<"\n\n WELCOME TO TIC TAC TOE GAME \n\n";
-	cout<<"PLAYER 1- 'x/X' "<<endl;
-	cout<<"PLAYER 1- 'O/o' \n "<<endl;
+	cout<<"PERSON 1- 'X' "<<endl;
+	cout<<"PERSON 2- 'O' \n "<<endl;
 	cout<<" 		|	      	  |	"<<endl;
                                
 	//trying to visulaize board and assigning each value to each space
